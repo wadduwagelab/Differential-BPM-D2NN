@@ -56,7 +56,7 @@ vol.load_layers_from(thin)
 I = vol(u_in)                                  # detector intensity; differentiable in the phases
 ```
 
-`n_sub` is the number of slices per \(h_{\max}\). Pass `dz=` instead to fix the
+`n_sub` is the number of slices per $h_{\max}$. Pass `dz=` instead to fix the
 slice thickness. `axial_mode="legacy"` puts the relief entrance on the nominal
 plane.
 
