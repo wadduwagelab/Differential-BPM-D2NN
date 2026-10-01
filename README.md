@@ -72,7 +72,7 @@ python scripts/run_classification_sweep.py --dataset fmnist --encoding phase    
 python scripts/run_classification_sweep.py --dataset fmnist --encoding amplitude --out_dir experiments/cls/fmnist_amp
 ```
 
-Imaging (same 200×200, \(0.535\lambda\) pitch, \(40\lambda\) spacing):
+Imaging (same 200×200, $0.535\lambda$ pitch, $40\lambda$ spacing):
 
 ```bash
 python scripts/run_imaging_sweep.py --dataset mnist --out_dir experiments/img/mnist
